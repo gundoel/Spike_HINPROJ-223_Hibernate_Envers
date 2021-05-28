@@ -25,7 +25,7 @@ Runs with H2 in memory database and supports following calls:
    "roles": []
    }
    ]`
-3. http://localhost:8080/addRoleToUser?username=<username>&rolename=<rolename> - Adds given role name to given user name
+3. http://localhost:8080/addRoleToUser?username=[username]&rolename=[rolename] - Adds given role name to given user name
    After calling http://localhost:8080/addRoleToUser?username=HAMU4&rolename=admin this is what response looks like:
    `[
    {
@@ -47,6 +47,6 @@ Runs with H2 in memory database and supports following calls:
    "roles": []
    }
    ]`
-4. http://localhost:8080/removeRolesFromUser?username=<username> - Removes all roles from user with given username
-5. http://localhost:8080/deleteUser?username=<username> - Deletes User with all its roles
+4. http://localhost:8080/removeRolesFromUser?username=[username] - Removes all roles from user with given username
+5. http://localhost:8080/deleteUser?username=[username] - Deletes User with all its roles
 
